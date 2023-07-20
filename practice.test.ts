@@ -43,5 +43,10 @@ describe('Calculator', () => {
   test('multiply function test 2', () => {
     expect(calculator.multiply(12, -3)).toBe(-36);
   })
-  
+  test('divide function test 1', () => {
+    expect(calculator.divide(12, 4)).toBe(3);
+  })
+  test('divide function test 2', () => {
+    expect(calculator.divide(26, 5)).toBe(5.2);
+  })
 });
