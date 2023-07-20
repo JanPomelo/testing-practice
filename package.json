@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testWatch": "jest --watch *.ts"
   },
   "keywords": [],
   "author": "Jan Steikowski <j.steikowski@aol.com>",
